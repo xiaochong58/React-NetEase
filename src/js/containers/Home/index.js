@@ -4,7 +4,7 @@ export default class index extends React.Component {
   state = {
     banners: [
       {
-        img: 'http://placekitten.com/g/750/380',
+        img: '',
         title: '澳洲发现最大恐龙脚化石',
         link: '/hot'
       },
@@ -14,7 +14,7 @@ export default class index extends React.Component {
         link: '/hot'
       },{
         img: 'http://placekitten.com/g/750/380',
-        title: '日前朝1234',
+        title: '如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长',
         link: '/hot'
       }
     ]
