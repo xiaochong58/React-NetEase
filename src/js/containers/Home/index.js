@@ -4,7 +4,7 @@ export default class index extends React.Component {
   state = {
     banners: [
       {
-        img: '',
+        img: 'http://placekitten.com/g/750/380',
         title: '澳洲发现最大恐龙脚化石',
         link: '/hot'
       },
@@ -25,6 +25,7 @@ export default class index extends React.Component {
       dots: true,
       arrows: false,
       speed: 500,
+      focusOnSelect: true,
       dotsClass: 'swipe-dots',
       slidesToShow: 1,
       slidesToScroll: 1
@@ -32,9 +33,7 @@ export default class index extends React.Component {
     const {banners} = this.state;
     return (
       <div>
-        <Brand />
         {banners && banners.length > 0 && <Swipe data={banners} {...settings} />}
-        <h1>adsf234</h1>
         <Nav />
       </div>
     )
