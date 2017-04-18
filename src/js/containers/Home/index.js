@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, Brand, Swipe} from 'app/components'
+import {Nav, Brand, Swipe, NewsList} from 'app/components'
 export default class index extends React.Component {
   state = {
     banners: [
@@ -17,6 +17,23 @@ export default class index extends React.Component {
         title: '如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长如果文本很长',
         link: '/hot'
       }
+    ],
+    news: [
+      {
+        id: 1,
+        link: '/me',
+        images: ['http://placekitten.com/g/170/125'],
+        title: '美国政府拟检查中国旅客社群信息 遭多团体反对',
+        tag: '新闻热点',
+        comments_num: 388
+      },{
+        id: 2,
+        link: '/me',
+        images: ['http://placekitten.com/g/170/125'],
+        title: '安倍政府启动对美经济外交活动 恐面临综合考验',
+        tag: '海外网',
+        comments_num: 388
+      }
     ]
   };
 
@@ -30,10 +47,14 @@ export default class index extends React.Component {
       slidesToShow: 1,
       slidesToScroll: 1
     };
-    const {banners} = this.state;
+    const {banners, news} = this.state;
     return (
       <div>
         {banners && banners.length > 0 && <Swipe data={banners} {...settings} />}
+        {
+          news && news.length > 0 &&
+          news.map(item => <NewsList key={item.id} {...item} />)
+        }
         <Nav />
       </div>
     )
