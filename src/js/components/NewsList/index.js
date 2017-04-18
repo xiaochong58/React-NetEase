@@ -21,6 +21,23 @@ export default (data) => {
       </div>
     </div>
   }
+  if(data.images.length === 3){
+    item = <div>
+      <div className={s.titleOther}>{data.title}</div>
+      <div className={s.box}>
+        {data.images.map((item, index) => <Img
+          key={index}
+          imgWrapClass={s.imgWrap}
+          imgClass={s.img}
+          imgUrl={item}
+        />)}
+      </div>
+      <div className={s.footOther}>
+        <span>{data.tag || ''}</span>
+        <span>{data.comments_num}跟帖</span>
+      </div>
+    </div>
+  }
   return (
     <Link to={data.link} className={s.root}>
       {item}
