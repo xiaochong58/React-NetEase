@@ -1,5 +1,6 @@
 import React from 'react'
 import {Nav} from 'app/components'
+
 export default class index extends React.Component {
   render() {
     return (

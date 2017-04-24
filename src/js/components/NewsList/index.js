@@ -39,7 +39,7 @@ export default (data) => {
     </div>
   }
   return (
-    <Link to={data.link} className={s.root}>
+    <Link to={`/content/${data.id}`} className={s.root}>
       {item}
     </Link>
   )

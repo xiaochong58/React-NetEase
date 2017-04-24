@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'minooo';
   src:
-          url('../fonts/minooo.ttf?hbs27g') format('truetype'),
-          url('../fonts/minooo.woff?hbs27g') format('woff'),
-          url('../fonts/minooo.svg?hbs27g#minooo') format('svg');
+          url('../fonts/minooo.ttf?kpraui') format('truetype'),
+          url('../fonts/minooo.woff?kpraui') format('woff'),
+          url('../fonts/minooo.svg?kpraui#minooo') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -69,5 +69,8 @@
 }
 .i-label:before {
   content: "\e91d";
+}
+.i-arrow-left:before {
+  content: "\e094";
 }
 

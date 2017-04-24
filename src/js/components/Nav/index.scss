@@ -1,20 +1,14 @@
-@import "../../../styles/var";
-
 .root {
-  position: fixed;
-  z-index: 50;
-  bottom: 0;
-  background-color: $fill-nav;
+  background-color: #F9F8F9;
   height: 0.98rem;
-  max-width: $max-width;
   width: 100%;
   display: flex;
 }
 
 .home, .hot, .me {
-  color: $brand-primary;
+  color: #DF3031;
   &:hover, &:active {
-    color: $brand-primary;
+    color: #DF3031;
   }
 }
 

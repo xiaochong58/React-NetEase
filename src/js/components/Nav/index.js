@@ -4,7 +4,6 @@ import s from "./index.scss";
 
 export default () =>
   <div>
-    <div style={{height: '1.2rem'}} />
     <nav className={s.root}>
       <NavLink
         exact
