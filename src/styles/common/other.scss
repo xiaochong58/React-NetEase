@@ -18,8 +18,20 @@
   overflow: hidden;
 }
 
+.overflow-y {
+  overflow-y: scroll;
+}
+
+.full-height {
+  height: 100vh;
+}
+
 .circle {
   border-radius: 50%;
+}
+
+.radius-4 {
+  border-radius: 0.04rem
 }
 
 // 文本方向
@@ -49,7 +61,6 @@
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-
 }
 
 // 字符超出两行溢出隐藏

@@ -3,7 +3,6 @@ import './styles/font.scss'
 import './styles/plugin.scss'
 import './styles/app.scss'
 
-
 import {AppContainer as HotReloader} from 'react-hot-loader'
 import React from 'react'
 import {render} from 'react-dom'

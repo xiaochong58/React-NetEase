@@ -538,6 +538,13 @@ babel-plugin-import@^1.1.1:
   version "1.1.1"
   resolved "http://r.cnpmjs.org/babel-plugin-import/download/babel-plugin-import-1.1.1.tgz#98977e6e9cef92bffef04bb1f291c44039fe21c6"
 
+babel-plugin-lodash@^3.2.11:
+  version "3.2.11"
+  resolved "http://r.cnpmjs.org/babel-plugin-lodash/download/babel-plugin-lodash-3.2.11.tgz#21c8fdec9fe1835efaa737873e3902bdd66d5701"
+  dependencies:
+    glob "^7.1.1"
+    lodash "^4.17.2"
+
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
   resolved "http://registry.npm.taobao.org/babel-plugin-syntax-async-functions/download/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
@@ -2275,7 +2282,7 @@ fastparse@^1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/fastparse/download/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
 
-fbjs@^0.8.3, fbjs@^0.8.9:
+fbjs@^0.8.3, fbjs@^0.8.6, fbjs@^0.8.9:
   version "0.8.11"
   resolved "http://registry.npm.taobao.org/fbjs/download/fbjs-0.8.11.tgz#340b590b8a2278a01ef7467c07a16da9b753db24"
   dependencies:
@@ -2498,7 +2505,7 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@~7.1.1:
+glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@~7.1.1:
   version "7.1.1"
   resolved "http://registry.npm.taobao.org/glob/download/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
   dependencies:
@@ -3299,9 +3306,9 @@ lodash@^3.10.1:
   version "3.10.1"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.3, lodash@^4.2.0, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.6.1:
   version "4.17.4"
-  resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  resolved "http://r.cnpmjs.org/lodash/download/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
 lodash@~4.16.4:
   version "4.16.6"
@@ -4626,6 +4633,12 @@ react-static-container@^1.0.1:
 react-sticky@^5.0.2:
   version "5.0.5"
   resolved "http://r.cnpmjs.org/react-sticky/download/react-sticky-5.0.5.tgz#995871273f8a001fa4d462d3b96f381ee54b2649"
+
+react-tap-event-plugin@^2.0.1:
+  version "2.0.1"
+  resolved "http://r.cnpmjs.org/react-tap-event-plugin/download/react-tap-event-plugin-2.0.1.tgz#316beb3bc6556e29ec869a7293e89c826a9074d2"
+  dependencies:
+    fbjs "^0.8.6"
 
 react-timer-mixin@^0.13.3, react-timer-mixin@~0.13.3:
   version "0.13.3"

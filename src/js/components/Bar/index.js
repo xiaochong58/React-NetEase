@@ -7,7 +7,7 @@ export default ({history}) => {
   }
 
   return (
-    <div className={s.root}>
+    <div className={`${s.root} between-center`}>
       <i onClick={goBack} className={`i-arrow-left ${s.ico}`} />
       <div className={s.right}>311跟帖</div>
     </div>

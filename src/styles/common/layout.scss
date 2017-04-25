@@ -6,11 +6,24 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .equal {
   flex: 1;
+}
+
+// 两端对齐，垂直居中
+.between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// 水平垂直居中
+.center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 // flex 参考指南。http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
