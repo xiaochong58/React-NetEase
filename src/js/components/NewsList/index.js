@@ -1,17 +1,17 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {Img} from '../index'
-import s from './index.scss'
 
 export default (data) => {
   let item;
   if(data.images.length === 1){
     item = <div className="flex">
       <Img
-        style={{width:'2.7rem', height:'1.28rem', backgroundSize:'0.9rem auto', marginRight:'0.27rem'}}
+        wrapStyle={{backgroundSize:'0.9rem auto', marginRight:'0.27rem'}}
+        imgStyle={{width:'1.7rem', height:'1.28rem'}}
         imgUrl={data.images[0]}
       />
-      <div className={s.right}>
+      <div>
         <div
           style={{height: '0.8rem'}}
           className="c-text font-32 text-overflow-2 line-height-title mb10"
@@ -29,7 +29,7 @@ export default (data) => {
       <div className="flex">
         {data.images.map((item, index) => <Img
           key={index}
-          style={{flex:'1', backgroundSize:'1rem auto', marginRight: '0.2rem'}}
+          wrapStyle={{flex:'1', backgroundSize:'1rem auto', marginRight: (data.images.length-1 === index) ? "0" : '0.2rem'}}
           imgUrl={item}
         />)}
       </div>
