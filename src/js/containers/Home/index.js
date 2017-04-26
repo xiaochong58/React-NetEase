@@ -72,18 +72,15 @@ export default class index extends React.Component {
       slidesToScroll: 1
     };
     const {banners, news} = this.state;
-    const {match} = this.props;
     return (
       <div className="column-between full-height">
         <Brand />
-        <div className="equal overflow-h relative">
-          <ScrollBox>
-            {banners && banners.length > 0 && <Swipe data={banners} {...settings} />}
-            {
-              news && news.length > 0 &&
-              news.map(item => <NewsList key={item.id} {...item} />)
-            }
-          </ScrollBox>
+        <div className="equal overflow-y relative">
+          {banners && banners.length > 0 && <Swipe data={banners} {...settings} />}
+          {
+            news && news.length > 0 &&
+            news.map(item => <NewsList key={item.id} {...item} />)
+          }
         </div>
         <Nav />
       </div>

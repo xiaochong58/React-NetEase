@@ -1,3 +1,4 @@
+// 其他的一些常用设置
 .flex {
   display: flex;
 }
@@ -12,6 +13,42 @@
 
 .absolute {
   position: absolute;
+}
+
+.top0 {
+  top: 0;
+}
+
+.bottom0 {
+  bottom: 0;
+}
+
+.left0 {
+  left: 0;
+}
+
+.right0 {
+  right: 0;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.z-index10 {
+  z-index: 10;
+}
+
+.z-index20 {
+  z-index: 20;
+}
+
+.z-index50 {
+  z-index: 50;
+}
+
+.z-index100 {
+  z-index: 100;
 }
 
 .overflow-h {
@@ -34,6 +71,29 @@
   border-radius: 0.04rem
 }
 
+.line-height-single {
+  line-height: 1;
+}
+
+.line-height-title {
+  line-height: 1.2;
+}
+
+.line-height-paragraph {
+  line-height: 1.5;
+}
+
+.border-top {
+  border-top: 1px solid #d9d9d9;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #d9d9d9;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
 // 文本方向
 .text-left {
   text-align: left;
@@ -48,14 +108,14 @@
 }
 
 // 字符溢出隐藏
-.text-overflow-1 {
+.text-overflow-one {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 // 字符超出一行溢出隐藏
-.text-overflow-one {
+.text-overflow-1 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;

@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 export default ({text, path}) =>
-  <div className="center-center-column ptb20">
+  <div className="center-center column ptb18">
     <div className="c999">{text ? text : "暂无数据，敬请期待！"}</div>
     {
       path &&

@@ -1,18 +1,13 @@
 // 公用的布局样式
-// 上下两端对齐
 
-// 垂直方向的
+// 垂直方向两端对齐，元素间隔相等。
 .column-between {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.equal {
-  flex: 1;
-}
-
-// 两端对齐，垂直居中
+// 水平方向两端对齐，垂直居中
 .between-center {
   display: flex;
   justify-content: space-between;
@@ -26,6 +21,20 @@
   align-items: center;
 }
 
+// 垂直排列
+.column {
+  flex-direction: column;
+}
+
+// 两端对齐
+.between {
+  justify-content: space-between;
+}
+
+// 占据剩余空间
+.equal {
+  flex: 1;
+}
 // flex 参考指南。http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
 // 任何一个容器都可以指定 flex 布局
 // .box-example { display: flex }

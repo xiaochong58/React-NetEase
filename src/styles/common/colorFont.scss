@@ -1,15 +1,30 @@
 // 公用的颜色样式
 // 字体色
-.c-main {
- color: #eb413d;
+.bold {
+  font-weight: bold;
+}
+.nav:hover {
+  color: #eb413d
 }
 
-.c-text {
+.c-main {
+  color: #eb413d;
+}
+
+.c-333 {
   color: #333;
 }
 
-.c-tip {
-  color: #bebebe;
+.c-666 {
+  color: #666;
+}
+
+.c-999 {
+  color: #999;
+}
+
+.c-white {
+  color: #fff;
 }
 
 // 背景色
@@ -25,7 +40,55 @@
   background-color: #fff;
 }
 
-.bg-trans {
+.bg-rgba4 {
   background-color: rgba(0, 0, 0, .4)
 }
 
+// 字体大小
+.font-20 {
+  font-size: 0.2rem;
+}
+
+.font-22 {
+  font-size: 0.22rem;
+}
+
+.font-24 {
+  font-size: 0.24rem;
+}
+
+.font-26 {
+  font-size: 0.26rem;
+}
+
+.font-28 {
+  font-size: 0.28rem;
+}
+
+.font-30 {
+  font-size: 0.3rem;
+}
+
+.font-32 {
+  font-size: 0.32rem;
+}
+
+.font-34 {
+  font-size: 0.34rem;
+}
+
+.font-36 {
+  font-size: 0.36rem;
+}
+
+.font-38 {
+  font-size: 0.38rem;
+}
+
+.font-40 {
+  font-size: 0.4rem;
+}
+
+.font-42 {
+  font-size: 0.42rem;
+}

@@ -88,46 +88,43 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/ansi-styles/download/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-antd-mobile@^1.0.8:
-  version "1.0.8"
-  resolved "http://r.cnpmjs.org/antd-mobile/download/antd-mobile-1.0.8.tgz#d14bb15abd064921afc0d1648c44453a67d98932"
+antd-mobile@^1.1.0:
+  version "1.1.0"
+  resolved "http://r.cnpmjs.org/antd-mobile/download/antd-mobile-1.1.0.tgz#75d350fe10962fcad54370dd5de36f258ce2637c"
   dependencies:
     array-tree-filter "~1.0.0"
     babel-runtime "6.x"
     classnames "~2.2.1"
-    css-vendor "~0.3.4"
-    moment "~2.17.1"
-    normalize.css "^5.0.0"
+    create-react-class "^15.5.2"
+    moment "~2.18.1"
+    normalize.css "^6.0.0"
     nuka-carousel "~2.0.4"
     object-assign "~4.1.0"
     omit.js "~0.1.0"
-    rc-checkbox "~1.5.0"
-    rc-collapse "~1.6.11"
+    prop-types "^15.5.8"
+    rc-checkbox "~2.0.0"
+    rc-collapse "~1.7.0"
     rc-dialog "~6.5.7"
     rc-drawer "~0.4.9"
-    rc-input-number "~3.4.4"
+    rc-input-number "~3.4.13"
     rc-notification "~1.4.1"
-    rc-slider "~7.0.0"
-    rc-steps "~2.4.1"
+    rc-slider "~7.0.1"
+    rc-steps "~2.5.1"
     rc-swipeout "~1.2.4"
-    rc-table "~5.2.2"
+    rc-table "~5.3.1"
     rc-tabs "~7.3.1"
-    rc-tooltip "~3.4.2"
+    rc-tooltip "~3.4.3"
     rc-touchable "~1.0.11"
-    react-hammerjs "^0.5.0"
     react-native-camera-roll-picker "~1.1.6"
     react-native-collapsible "^0.8.0"
     react-native-drawer-layout "~1.1.1"
     react-native-menu "~0.20.1"
     react-native-scrollable-tab-view "^0.7.2"
-    react-timer-mixin "~0.13.3"
     rmc-cascader "^4.1.1"
     rmc-date-picker "^5.3.1"
     rmc-list-view "^0.7.4"
     rmc-picker "^3.8.0"
     rn-topview "~0.1.0"
-    shallowequal "^0.2.2"
-    zscroller "~0.2.2"
 
 anymatch@^1.3.0:
   version "1.3.0"
@@ -1375,10 +1372,6 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chain-function@^1.0.0:
-  version "1.0.0"
-  resolved "http://r.cnpmjs.org/chain-function/download/chain-function-1.0.0.tgz#0d4ab37e7e18ead0bdc47b920764118ce58733dc"
-
 chalk@^1.1.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
   resolved "http://registry.npm.taobao.org/chalk/download/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
@@ -1777,12 +1770,6 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-vendor@~0.3.4:
-  version "0.3.8"
-  resolved "http://r.cnpmjs.org/css-vendor/download/css-vendor-0.3.8.tgz#6421cfd3034ce664fe7673972fd0119fc28941fa"
-  dependencies:
-    is-in-browser "^1.0.2"
-
 css-what@2.1:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/css-what/download/css-what-2.1.0.tgz#9467d032c38cfaefb9f2d79501253062f87fa1bd"
@@ -1948,10 +1935,6 @@ dom-converter@~0.1:
   resolved "http://registry.npm.taobao.org/dom-converter/download/dom-converter-0.1.4.tgz#a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
   dependencies:
     utila "~0.3"
-
-dom-helpers@^3.2.0:
-  version "3.2.1"
-  resolved "http://r.cnpmjs.org/dom-helpers/download/dom-helpers-3.2.1.tgz#3203e07fed217bd1f424b019735582fc37b2825a"
 
 dom-serializer@0, dom-serializer@~0.1.0:
   version "0.1.0"
@@ -2282,7 +2265,7 @@ fastparse@^1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/fastparse/download/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
 
-fbjs@^0.8.3, fbjs@^0.8.6, fbjs@^0.8.9:
+fbjs@^0.8.3, fbjs@^0.8.9:
   version "0.8.11"
   resolved "http://registry.npm.taobao.org/fbjs/download/fbjs-0.8.11.tgz#340b590b8a2278a01ef7467c07a16da9b753db24"
   dependencies:
@@ -2890,10 +2873,6 @@ is-glob@^2.0.0, is-glob@^2.0.1:
   dependencies:
     is-extglob "^1.0.0"
 
-is-in-browser@^1.0.2:
-  version "1.1.3"
-  resolved "http://r.cnpmjs.org/is-in-browser/download/is-in-browser-1.1.3.tgz#56ff4db683a078c6082eb95dad7dc62e1d04f835"
-
 is-my-json-valid@^2.12.4:
   version "2.16.0"
   resolved "http://registry.npm.taobao.org/is-my-json-valid/download/is-my-json-valid-2.16.0.tgz#f079dd9bfdae65ee2038aae8acbc86ab109e3693"
@@ -3494,9 +3473,9 @@ mkdirp@0.3.0:
   dependencies:
     minimist "0.0.8"
 
-moment@2.x, moment@~2.17.1:
-  version "2.17.1"
-  resolved "http://r.cnpmjs.org/moment/download/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
+moment@2.x, moment@~2.18.1:
+  version "2.18.1"
+  resolved "http://r.cnpmjs.org/moment/download/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
 ms@0.7.1:
   version "0.7.1"
@@ -3659,9 +3638,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-normalize.css@^5.0.0:
-  version "5.0.0"
-  resolved "http://r.cnpmjs.org/normalize.css/download/normalize.css-5.0.0.tgz#7cec875ce8178a5333c4de80b68ea9c18b9d7c37"
+normalize.css@^6.0.0:
+  version "6.0.0"
+  resolved "http://r.cnpmjs.org/normalize.css/download/normalize.css-6.0.0.tgz#22188c2707c911fb3ad3c1aac0677ff68661bea8"
 
 npm-run-all@^4.0.2:
   version "4.0.2"
@@ -4255,13 +4234,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.2, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@~15.5.0:
-  version "15.5.6"
-  resolved "http://r.cnpmjs.org/prop-types/download/prop-types-15.5.6.tgz#797a915b1714b645ebb7c5d6cc690346205bd2aa"
-  dependencies:
-    fbjs "^0.8.9"
-
-prop-types@^15.5.7:
+prop-types@15.x, prop-types@^15.5.2, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@~15.5.0:
   version "15.5.8"
   resolved "http://r.cnpmjs.org/prop-types/download/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
   dependencies:
@@ -4375,19 +4348,21 @@ rc-animate@2.x:
   dependencies:
     css-animation "^1.3.0"
 
-rc-checkbox@~1.5.0:
-  version "1.5.0"
-  resolved "http://r.cnpmjs.org/rc-checkbox/download/rc-checkbox-1.5.0.tgz#464ce9b40b1ad9d119524ced174a60a7b4eb7529"
+rc-checkbox@~2.0.0:
+  version "2.0.0"
+  resolved "http://r.cnpmjs.org/rc-checkbox/download/rc-checkbox-2.0.0.tgz#f67bc1f3e192dd54cce608df9d8f35efa8b00079"
   dependencies:
     classnames "2.x"
+    prop-types "15.x"
     rc-util "^4.0.1"
 
-rc-collapse@~1.6.11:
-  version "1.6.12"
-  resolved "http://r.cnpmjs.org/rc-collapse/download/rc-collapse-1.6.12.tgz#4eb3a866cdeea7eea9962e8072ecbbf0025f427b"
+rc-collapse@~1.7.0:
+  version "1.7.2"
+  resolved "http://r.cnpmjs.org/rc-collapse/download/rc-collapse-1.7.2.tgz#d7de9e5dedfdb18422b16c46d47bd4b4366701e3"
   dependencies:
     classnames "2.x"
     css-animation "1.x"
+    prop-types "^15.5.6"
     rc-animate "2.x"
 
 rc-dialog@^6.4.0, rc-dialog@~6.5.7:
@@ -4406,9 +4381,9 @@ rc-drawer@~0.4.9:
     babel-runtime "6.x"
     classnames "^2.2.4"
 
-rc-input-number@~3.4.4:
-  version "3.4.13"
-  resolved "http://r.cnpmjs.org/rc-input-number/download/rc-input-number-3.4.13.tgz#fa2d3ec9c77a3ea42210047da40bfbb6394281c8"
+rc-input-number@~3.4.13:
+  version "3.4.14"
+  resolved "http://r.cnpmjs.org/rc-input-number/download/rc-input-number-3.4.14.tgz#efea6944edb293906e2f57d8c01f06a79938bda0"
   dependencies:
     babel-runtime "6.x"
     classnames "^2.2.0"
@@ -4424,23 +4399,24 @@ rc-notification@~1.4.1:
     rc-animate "2.x"
     rc-util "4.0.2"
 
-rc-slider@~7.0.0:
-  version "7.0.0"
-  resolved "http://r.cnpmjs.org/rc-slider/download/rc-slider-7.0.0.tgz#10a6266ee76d86673ee33be122ca9a92557c92aa"
+rc-slider@~7.0.1:
+  version "7.0.2"
+  resolved "http://r.cnpmjs.org/rc-slider/download/rc-slider-7.0.2.tgz#119ea8343233ebf42445728784ec9c1899ae9ac0"
   dependencies:
     babel-runtime "6.x"
     classnames "^2.2.5"
-    object-assign "^4.1.1"
+    prop-types "^15.5.4"
     rc-tooltip "^3.4.2"
     rc-util "^4.0.0"
     warning "^3.0.0"
 
-rc-steps@~2.4.1:
-  version "2.4.3"
-  resolved "http://r.cnpmjs.org/rc-steps/download/rc-steps-2.4.3.tgz#1f1d3a4def335e53c626416b62bdf6f55bcd9a3b"
+rc-steps@~2.5.1:
+  version "2.5.1"
+  resolved "http://r.cnpmjs.org/rc-steps/download/rc-steps-2.5.1.tgz#c3969aea3fb984cecb977a4a96ab634d756a6dc4"
   dependencies:
     classnames "^2.2.3"
     lodash.debounce "^4.0.8"
+    prop-types "^15.5.7"
 
 rc-swipeout@~1.2.4:
   version "1.2.6"
@@ -4451,12 +4427,13 @@ rc-swipeout@~1.2.4:
     react-hammerjs "^0.5.0"
     react-native-swipe-out "~2.0.12"
 
-rc-table@~5.2.2:
-  version "5.2.15"
-  resolved "http://r.cnpmjs.org/rc-table/download/rc-table-5.2.15.tgz#a6521ba68d660b023e9854f81fffdd7a80065e22"
+rc-table@~5.3.1:
+  version "5.3.1"
+  resolved "http://r.cnpmjs.org/rc-table/download/rc-table-5.3.1.tgz#0cc193a3805371eb88b9866e898220d9dbfce6a9"
   dependencies:
     component-classes "^1.2.6"
     lodash.get "^4.4.2"
+    prop-types "^15.5.8"
     rc-util "4.x"
     shallowequal "^0.2.2"
     warning "^3.0.0"
@@ -4469,10 +4446,11 @@ rc-tabs@~7.3.1:
     classnames "2.x"
     react-hammerjs "~0.5.0"
 
-rc-tooltip@^3.4.2, rc-tooltip@~3.4.2:
-  version "3.4.2"
-  resolved "http://r.cnpmjs.org/rc-tooltip/download/rc-tooltip-3.4.2.tgz#c5c89c347ed790f7f290ef825d5e24e8fb599166"
+rc-tooltip@^3.4.2, rc-tooltip@~3.4.3:
+  version "3.4.3"
+  resolved "http://r.cnpmjs.org/rc-tooltip/download/rc-tooltip-3.4.3.tgz#6ae6ef0eccea39ca2add125bccdb34802c612eec"
   dependencies:
+    prop-types "^15.5.8"
     rc-trigger "1.x"
 
 rc-touchable@^1.0.0, rc-touchable@^1.0.2, rc-touchable@~1.0.11:
@@ -4614,6 +4592,13 @@ react-router@^4.1.1:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
+react-scroll@^1.5.2:
+  version "1.5.2"
+  resolved "http://r.cnpmjs.org/react-scroll/download/react-scroll-1.5.2.tgz#f10f14840d3138a121d2c0f04933bbfee4193975"
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.5.8"
+
 react-slick@^0.14.11:
   version "0.14.11"
   resolved "http://registry.npm.taobao.org/react-slick/download/react-slick-0.14.11.tgz#c2cbdbe3728c66a2ff4929be96d457e3ea0d80f3"
@@ -4634,24 +4619,9 @@ react-sticky@^5.0.2:
   version "5.0.5"
   resolved "http://r.cnpmjs.org/react-sticky/download/react-sticky-5.0.5.tgz#995871273f8a001fa4d462d3b96f381ee54b2649"
 
-react-tap-event-plugin@^2.0.1:
-  version "2.0.1"
-  resolved "http://r.cnpmjs.org/react-tap-event-plugin/download/react-tap-event-plugin-2.0.1.tgz#316beb3bc6556e29ec869a7293e89c826a9074d2"
-  dependencies:
-    fbjs "^0.8.6"
-
-react-timer-mixin@^0.13.3, react-timer-mixin@~0.13.3:
+react-timer-mixin@^0.13.3:
   version "0.13.3"
   resolved "http://r.cnpmjs.org/react-timer-mixin/download/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
-
-react-transition-group@^1.1.2:
-  version "1.1.2"
-  resolved "http://r.cnpmjs.org/react-transition-group/download/react-transition-group-1.1.2.tgz#374cd778070f74b0a658045fc532edfd471ad836"
-  dependencies:
-    chain-function "^1.0.0"
-    dom-helpers "^3.2.0"
-    prop-types "^15.5.6"
-    warning "^3.0.0"
 
 react-tween-state@^0.1.5:
   version "0.1.5"

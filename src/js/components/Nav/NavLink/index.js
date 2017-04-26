@@ -1,14 +1,13 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import s from "./index.scss";
 
 export default ({pathUrl, active, icoName, linkName, ...rest}) =>
   <NavLink
     {...rest}
     to={pathUrl}
     activeClassName={active}
-    className={s.root}
+    className="equal center-center c-999 nav column"
   >
-    <i className={icoName + ' ' + s.ico} />
-    <span className={s.text}>{linkName}</span>
+    <i className={`${icoName} font-42 pb6`} />
+    <span className="line-height-single font-24">{linkName}</span>
   </NavLink>;

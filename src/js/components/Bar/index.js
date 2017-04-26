@@ -1,5 +1,4 @@
 import React from "react"
-import s from "./index.scss"
 
 export default ({history}) => {
   function goBack() {
@@ -7,9 +6,9 @@ export default ({history}) => {
   }
 
   return (
-    <div className={`${s.root} between-center`}>
-      <i onClick={goBack} className={`i-arrow-left ${s.ico}`} />
-      <div className={s.right}>311跟帖</div>
+    <div className="bg-default between-center" style={{height:'1.08rem', padding:'0 0.54rem'}}>
+      <i onClick={goBack} className="i-arrow-left font-40 c-666" />
+      <div className="radius-4 bg-main ptb12 plr20 font-30 c-white line-height-single">311跟帖</div>
     </div>
   )
 }

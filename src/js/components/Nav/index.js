@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 import s from "./index.scss";
 
 export default () =>
-  <nav className={s.root}>
+  <nav style={{height:'0.98rem'}} className="bg-default flex border-top">
     <NavLink
       exact
       pathUrl="/"

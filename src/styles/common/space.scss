@@ -1,1 +1,116 @@
-// 公用的间隔样式
+// 公用的间距样式
+
+// 垂直间距，分为 6 12 18 24 30 五个档次
+.pt6, .ptb6 {
+  padding-top: 0.06rem;
+}
+
+.pb6, .ptb6 {
+  padding-bottom: 0.06rem;
+}
+
+.pt12, .ptb12 {
+  padding-top: 0.12rem;
+}
+
+.pb12, .ptb12 {
+  padding-bottom: 0.12rem;
+}
+
+.pt18, .ptb18 {
+  padding-top: 0.18rem;
+}
+
+.pb18, .ptb18 {
+  padding-bottom: 0.18rem;
+}
+
+.pt24, .ptb24 {
+  padding-top: 0.24rem;
+}
+
+.pb24, .ptb24 {
+  padding-bottom: 0.24rem;
+}
+
+.pt30, .ptb30 {
+  padding-top: 0.3rem;
+}
+
+.pb30, .ptb30 {
+  padding-bottom: 0.3rem;
+}
+
+// 水平间距，分为 10 20 30 三个档次
+.pl10, .plr10 {
+  padding-left: 0.1rem;
+}
+
+.pr10, .plr10 {
+  padding-right: 0.1rem;
+}
+
+.pl20, .plr20 {
+  padding-left: 0.2rem;
+}
+
+.pr20, .plr20 {
+  padding-right: 0.2rem;
+}
+
+.pl30, .plr30 {
+  padding-left: 0.3rem;
+}
+
+.pr30, .plr30 {
+  padding-right: 0.3rem;
+}
+
+// 常用边距，分为 10 20 30 三个档次
+.mt10 {
+  margin-top: 0.1rem;
+}
+
+.mb10 {
+  margin-bottom: 0.1rem;
+}
+
+.ml10 {
+  margin-left: 0.1rem;
+}
+
+.mr10 {
+  margin-right: 0.1rem;
+}
+
+.mt20 {
+  margin-top: 0.2rem;
+}
+
+.mb20 {
+  margin-bottom: 0.2rem;
+}
+
+.ml20 {
+  margin-left: 0.2rem;
+}
+
+.mr20 {
+  margin-right: 0.2rem;
+}
+
+.mt30 {
+  margin-top: 0.3rem;
+}
+
+.mb30 {
+  margin-bottom: 0.3rem;
+}
+
+.ml30 {
+  margin-left: 0.3rem;
+}
+
+.mr30 {
+  margin-right: 0.3rem;
+}
