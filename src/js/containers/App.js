@@ -9,7 +9,7 @@ import Me from './Me'
 export default (props) => (
   <BrowserRouter>
     <Wrap>
-      <Switch key={location.key}>
+      <Switch>
         <Route exact path="/" location={location} component={Home}/>
         <Route path="/content/:id" location={location} component={Content}/>
         <Route path="/hot" location={location} component={Hot}/>

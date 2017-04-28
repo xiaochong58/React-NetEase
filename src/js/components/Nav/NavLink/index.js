@@ -6,7 +6,7 @@ export default ({pathUrl, active, icoName, linkName, ...rest}) =>
     {...rest}
     to={pathUrl}
     activeClassName={active}
-    className="equal center-center c-999 nav column"
+    className="equal center-center c-aaa nav column"
   >
     <i className={`${icoName} font-42 pb6`} />
     <span className="line-height-single font-24">{linkName}</span>

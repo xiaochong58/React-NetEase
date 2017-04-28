@@ -40,7 +40,7 @@ export default (data) => {
     </div>
   }
   return (
-    <Link to={`/content/${data.id}`} className="block bg-default ptb18 plr20 border-bottom">
+    <Link to={`/content/${data.id}`} className="block ptb18 plr20 border-bottom">
       {item}
     </Link>
   )
