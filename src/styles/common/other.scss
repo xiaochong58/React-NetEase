@@ -68,7 +68,11 @@
 }
 
 .radius-4 {
-  border-radius: 0.04rem
+  border-radius: 0.04rem;
+}
+
+.radius-10 {
+  border-radius: 0.1rem;
 }
 
 .line-height-single {
@@ -81,6 +85,10 @@
 
 .line-height-paragraph {
   line-height: 1.5;
+}
+
+.border-all {
+  border: 0.03rem solid #e6e6e6;
 }
 
 .border-top {
