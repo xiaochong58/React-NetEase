@@ -19,7 +19,7 @@ export default class index extends React.PureComponent {
         className={`radius-10 center-center font-32 margin-auto ${isLove ? 'bg-f8 c-main border-all' : 'bg-main c-white'}`}
         onClick={this.onLove}
       >
-        <i className="i-love pr10" /> 111人喜欢
+        <i className={`i-love pr10 ${isLove ? 'bounceIn' : ''}`} /> 111人喜欢
       </div>
     )
   }
