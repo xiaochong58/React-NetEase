@@ -66,22 +66,21 @@ module.exports = {
       {
         test:/\.css$/,
         include: /node_modules/,
-        use:['style-loader','css-loader','postcss-loader']
+        use:[
+          { loader: 'style-loader', options: { sourceMap: true } },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } },
+        ]
       },
 
       /*公有样式*/
       {
         test: /\.scss$/,
         use: [
-          "style-loader",
-          "css-loader",
-          "postcss-loader",
-          {
-            loader: "sass-loader",
-            options: {
-              sourceMap: true
-            }
-          }
+          { loader: 'style-loader', options: { sourceMap: true } },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } },
+          { loader: 'sass-loader', options: { sourceMap: true } }
         ],
         include: path.resolve(__dirname, 'src/styles')
       },
@@ -90,7 +89,12 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          "style-loader",
+          {
+            loader: "style-loader",
+            options: {
+              sourceMap: true
+            }
+          },
           {
             loader: "css-loader",
             options:{
@@ -99,7 +103,12 @@ module.exports = {
               localIdentName:'[local]___[hash:base64:5]'
             }
           },
-          "postcss-loader",
+          {
+            loader: "postcss-loader",
+            options: {
+              sourceMap: true
+            }
+          },
           {
             loader: "sass-loader",
             options: {

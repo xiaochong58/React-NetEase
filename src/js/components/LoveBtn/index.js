@@ -6,13 +6,11 @@ export default class index extends React.PureComponent {
   };
 
   onLove = () => {
-    console.log(123)
     this.setState((preState, props) => ({isLove: !preState.isLove}))
   };
 
   render() {
     const {isLove} = this.state;
-    const {onClick} = this.props;
     return (
       <div
         style={{width:'3.6rem', height:'0.84rem'}}

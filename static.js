@@ -4,6 +4,7 @@
 * 此时当你请求二级页面时候再刷新就会找不到页面而出错，因为此时浏览器直接请求的是你的二级页面
 * 但是你的二级页面根本不存在，当然就出错了。
 * 解决方案就是建立一个Express的http服务器，然后将所有路径的访问都以index.html作为返回
+* 使用方法 node static.js
 * */
 
 const express = require('express');

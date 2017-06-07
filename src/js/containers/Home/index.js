@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, Brand, Swipe, NewsList, ScrollBox} from 'app/components'
+import {Nav, Brand, Swipe, NewsList} from 'app/components'
 export default class index extends React.Component {
   state = {
     banners: [
@@ -62,21 +62,17 @@ export default class index extends React.Component {
   render() {
     const settings = {
       dots: true,
-      arrows: false,
-      speed: 500,
-      draggable: true,
-      focusOnSelect: false,
-      infinite: true,
-      dotsClass: 'swipe-dots',
-      slidesToShow: 1,
-      slidesToScroll: 1
+      speed: 300,
+      autoplay: false,
+      infinite: true
     };
     const {banners, news} = this.state;
     return (
       <div className="column-between full-height">
-        <Brand />
-        <div className="equal overflow-y relative">
+        {/*<Brand />*/}
+        <div className="equal relative">
           {banners && banners.length > 0 && <Swipe data={banners} {...settings} />}
+
           {
             news && news.length > 0 &&
             news.map(item => <NewsList key={item.id} {...item} />)

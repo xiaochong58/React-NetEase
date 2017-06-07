@@ -1,15 +1,15 @@
 import React from "react"
 import {Link} from "react-router-dom"
 import {Img} from '../index'
-import Slider from 'react-slick'
+import {Carousel} from 'antd-mobile'
 
 const Item = ({data}) =>
   data.link.indexOf('http://') > -1 ?
     <a href={data.link} className="relative block">
-      <Img style={{backgroundSize: '1.4rem auto'}} imgUrl={data.img}/>
+      <Img wrapStyle={{backgroundSize: '1.4rem auto'}} imgUrl={data.img}/>
     </a> :
     <Link to={data.link} className="relative block">
-      <Img style={{backgroundSize: '1.4rem auto'}} imgUrl={data.img}/>
+      <Img wrapStyle={{height: '50.67vw', maxHeight:'5.067rem', backgroundSize: '1.4rem auto'}} imgUrl={data.img}/>
     </Link>;
 
 
@@ -30,9 +30,9 @@ export class Swipe extends React.PureComponent {
   render() {
     const {beforeChange, data, ...rest} = this.props;
     return (
-      <Slider beforeChange={beforeChange} {...rest}>
+      <Carousel className="my-carousel" beforeChange={beforeChange} {...rest}>
         {data.map((item, index) => <div key={index}><Item data={item}/></div>)}
-      </Slider>
+      </Carousel>
     )
   }
 }

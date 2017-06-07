@@ -75,12 +75,7 @@ module.exports = {
           "style-loader",
           "css-loader",
           "postcss-loader",
-          {
-            loader: "sass-loader",
-            options: {
-              sourceMap: true
-            }
-          }
+          "sass-loader"
         ],
         include: path.resolve(__dirname, 'src/styles')
       },
@@ -94,17 +89,11 @@ module.exports = {
             loader: "css-loader",
             options: {
               modules: true,
-              sourceMap: true,
               localIdentName: '[local]___[hash:base64:5]'
             }
           },
           "postcss-loader",
-          {
-            loader: "sass-loader",
-            options: {
-              sourceMap: true
-            }
-          }
+          "sass-loader"
         ],
         include: path.resolve(__dirname, 'src/js')
       }
