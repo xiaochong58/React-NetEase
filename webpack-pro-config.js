@@ -39,7 +39,8 @@ module.exports = {
     publicPath: '',
     // 模板、样式、脚本、图片等资源对应的server上的路径
 
-    filename: "bundle.js",
+    filename : '[name].js',
+    chunkFilename : '[name]-[id].js',
     // 命名生成的JS
   },
   // https://webpack.js.org/configuration/output/
