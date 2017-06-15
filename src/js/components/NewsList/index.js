@@ -40,7 +40,7 @@ export default (data) => {
     </div>
   }
   return (
-    <Link to={`/content/${data.id}`} className="block ptb18 plr20 border-bottom">
+    <Link to={{pathname: `/content/${data.id}`, state:{myID:'fuck'}}} className="block ptb18 plr20 border-bottom">
       {item}
     </Link>
   )

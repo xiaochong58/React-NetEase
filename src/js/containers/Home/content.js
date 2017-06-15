@@ -16,6 +16,7 @@ export default class index extends React.Component {
     const {data} = this.state;
     return (
       <div className="column-between full-height">
+        {console.log(this.props,'gaga')}
         <Bar history={history} />
         <div className="equal plr30 overflow-y">
           <h1 className="font-42 bold ptb30 line-height-paragraph">
